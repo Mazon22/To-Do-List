@@ -70,17 +70,9 @@ todo-app/
 
 <div align="center">
 
-**Михаил**  
+**Mazon22**  
 [![GitHub](https://img.shields.io/badge/GitHub-Mazon22-181717?style=for-the-badge&logo=github)](https://github.com/Mazon22)
 
 </div>
 
 ---
-
-<div align="center">
-
-**Сделано с ❤️ Михаилом**
-
-[Назад к началу](#современный-список-задач)
-
-</div>
