@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✅</text></svg>"
+      type="image/svg+xml"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>To-Do List</h1>
+        <p class="subtitle">Главное — сделать</p>
+      </header>
+
+      <div class="input-section">
+        <input
+          type="text"
+          id="new-task-input"
+          placeholder="Добавить новую задачу..."
+        />
+        <button id="add-task-btn">Добавить задачу</button>
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="active">Активные</button>
+        <button class="filter-btn" data-filter="completed">Завершенные</button>
+      </div>
+
+      <div class="tasks-container">
+        <ul id="task-list"></ul>
+      </div>
+
+      <div class="task-stats">
+        <span id="total-tasks">Всего: 0 задач</span>
+        <span id="completed-tasks">Завершено: 0</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
